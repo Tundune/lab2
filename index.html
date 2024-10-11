@@ -10,6 +10,10 @@
         <div class="img">
             <img src="/img/logo.png" alt="">
         </div>
+        <li class="menu">
+            <ul><a href="#"></a>Home</ul>
+            <ul><a href="/lab2/index.html">Lab</a></ul>
+        </li>
        </nav>
        <div>
   <div class="body-login">
@@ -28,7 +32,7 @@
                     <input type="text">
                 </div>
             </div>
-            <button class="btn-login">Login</button>
+            <button class="btn-login"><a href="/lab2/index.html">Login</a></button>
             <div class="register">Register an account <a href="/register">here</a></div>
         </div>
     </div>
@@ -52,6 +56,9 @@
     .nav-menu {
         display: flex;
         padding: 30px 100px;
+        background: #ffffff;
+        box-shadow: 0px 0px 1px 0px;
+        border-radius: 10px;
     }
     .btn-lognup li {
         list-style: none;
@@ -224,13 +231,18 @@
             border-radius: 20px;
             background: linear-gradient(to right, #0000CD, #FF4500);
             margin-top: 20px;
-            color: #fff;
+            a{text-decoration: none};
+            a{color: #ffffff;}
         }
         .register {
             padding-top: 20px;
             text-align: center;
     
         }
-    </style>
+    .menu {
+        display: flex;
+        a{text-decoration: none};
+        a{color: #333;}
+    }
 
 </style>
